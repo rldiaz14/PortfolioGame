@@ -1,0 +1,23 @@
+title: "Ramon L. Diaz - Game Developer"
+email: "rldiaz14.1@gmail.com"
+url: "https://rldiaz14.github.io"
+baseurl: "/PortfolioGame"
+github_username: rldiaz14
+markdown: kramdown
+
+include:
+  - _pages
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+sass:
+  sass_dir: _sass
+  style: compressed

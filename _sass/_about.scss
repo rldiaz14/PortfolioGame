@@ -1,0 +1,29 @@
+@use 'variables' as *;
+
+#about {
+  background-color: $bg;
+
+  .image-placeholder {
+    background-color: $bg3;
+    border: 1px dashed $border;
+    border-radius: 4px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $muted;
+    font-size: 0.9rem;
+  }
+}
+
+.screenshot-placeholder {
+  background-color: $bg3;
+  border: 1px dashed $border;
+  border-radius: 4px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $muted;
+  font-size: 0.9rem;
+}

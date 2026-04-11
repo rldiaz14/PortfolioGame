@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="/">RLD.dev</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav me-auto">
+        {% for item in site.data.navigation %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      <a class="btn btn-outline-secondary btn-sm" href="https://rldiaz14.github.io/rldiaz.github.io" target="_blank">Academic Site</a>
+    </div>
+  </div>
+</nav>

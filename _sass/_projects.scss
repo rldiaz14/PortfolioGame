@@ -1,0 +1,26 @@
+@use 'variables' as *;
+
+#projects {
+  background-color: $bg;
+
+  .project-card {
+    background-color: $bg2;
+    border: 1px solid $border;
+    border-radius: 4px;
+    transition: border-color 0.2s, transform 0.2s;
+
+    &:hover {
+      border-color: $accent;
+      transform: translateY(-3px);
+    }
+
+    h5 { color: #ffffff; }
+
+    .tags {
+      font-size: 0.78rem;
+      color: $accent2;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+  }
+}

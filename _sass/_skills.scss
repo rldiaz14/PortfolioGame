@@ -1,0 +1,27 @@
+@use 'variables' as *;
+
+#skills {
+  background-color: $bg2;
+
+  .skill-cluster {
+    background-color: $bg3;
+    border: 1px solid $border;
+    border-radius: 4px;
+
+    h5 {
+      border-bottom: 1px solid $border;
+      padding-bottom: 0.5rem;
+    }
+
+    ul {
+      padding-left: 1rem;
+      margin: 0;
+
+      li {
+        color: $muted;
+        font-size: 0.9rem;
+        padding: 0.2rem 0;
+      }
+    }
+  }
+}
