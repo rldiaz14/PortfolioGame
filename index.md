@@ -118,7 +118,7 @@
           <h5>Project 1</h5>
           <p class="tags">Tag - Tag</p>
           <p>Project description goes here.</p>
-          <<a href="/portfolio/project-1/">View Project</a>
+          <a href="/portfolio/project-1/">View Project</a>
         </div>
       </div>
 
