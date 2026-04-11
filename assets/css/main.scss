@@ -1,9 +1,9 @@
 ---
 ---
-@use 'variables' as *;
-@use 'base';
-@use 'nav';
-@use 'about';
-@use 'skills';
-@use 'projects';
-@use 'contact';
+@import 'variables';
+@import 'base';
+@import 'nav';
+@import 'about';
+@import 'skills';
+@import 'projects';
+@import 'contact';
