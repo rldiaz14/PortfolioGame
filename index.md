@@ -3,6 +3,32 @@ layout: default
 title: "Home"
 ---
 
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+  <div class="hero-tag">Game Developer & AI Engineer</div>
+  <h1 class="hero-name">
+    Ramon L.
+    <span class="highlight">Diaz<span class="cursor"></span></span>
+  </h1>
+  <div class="hero-role">Building worlds · Training agents · Exploring realities</div>
+  <p class="hero-desc">
+    CS graduate from Drexel University. I build games that push boundaries — from
+    procedurally generated worlds to AI-driven agents. Interested in AR/VR, deep
+    reinforcement learning, and the intersection of play and intelligence.
+  </p>
+  <div class="hero-cta">
+    <a href="#projects" class="btn-primary">View Projects</a>
+    <a href="#contact" class="btn-secondary">Get in Touch</a>
+  </div>
+</section>
+
+
+
+
+
 <!-- ABOUT -->
 <section id="about" class="container py-5 mt-5">
   <h2 class="mb-4">About</h2>
