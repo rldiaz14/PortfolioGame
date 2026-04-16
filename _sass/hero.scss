@@ -85,7 +85,7 @@ h1.hero-name {
   flex-wrap: wrap;
 }
 
-.btn-primary {
+.hero-btn-primary {
   font-family: $mono;
   font-size: 13px;
   letter-spacing: 0.1em;
@@ -102,7 +102,28 @@ h1.hero-name {
 
   &:hover {
     background: #fff;
+    color: $bg;
     transform: translateY(-2px);
+  }
+}
+
+.hero-btn-secondary {
+  font-family: $mono;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $accent;
+  background: transparent;
+  padding: 11px 28px;
+  border: 1px solid $border;
+  transition: all 0.2s;
+  display: inline-block;
+
+  &:hover {
+    border-color: $accent;
+    background: rgba(0,229,255,0.05);
+    color: $accent;
   }
 }
 
@@ -140,3 +161,6 @@ h1.hero-name {
 @media (max-width: 600px) {
   #hero { padding: 6rem 1.5rem 3rem; }
 }
+
+.hero-btn-primary { color: #080c10 !important; }
+.hero-btn-secondary { color: #00e5ff !important; }
