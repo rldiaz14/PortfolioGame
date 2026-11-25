@@ -52,7 +52,7 @@ title: "Home"
   <h2 class="mb-4">Skills</h2>
   <div class="row g-4">
     <div class="col-sm-6 col-lg-3">
-      <div class="skill-cluster p-3 h-100">
+      <div class="skill-cluster h-100">
         <h5>Game Engines</h5>
         <ul class="mt-2">
           <li>Unity (C#)</li>
@@ -63,7 +63,7 @@ title: "Home"
       </div>
     </div>
     <div class="col-sm-6 col-lg-3">
-      <div class="skill-cluster p-3 h-100">
+      <div class="skill-cluster h-100">
         <h5>AI / ML</h5>
         <ul class="mt-2">
           <li>Deep Reinforcement Learning</li>
@@ -74,7 +74,7 @@ title: "Home"
       </div>
     </div>
     <div class="col-sm-6 col-lg-3">
-      <div class="skill-cluster p-3 h-100">
+      <div class="skill-cluster h-100">
         <h5>Languages</h5>
         <ul class="mt-2">
           <li>Python</li>
@@ -85,7 +85,7 @@ title: "Home"
       </div>
     </div>
     <div class="col-sm-6 col-lg-3">
-      <div class="skill-cluster p-3 h-100">
+      <div class="skill-cluster h-100">
         <h5>Research and Tools</h5>
         <ul class="mt-2">
           <li>Procedural Content Generation</li>

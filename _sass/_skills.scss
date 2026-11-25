@@ -1,27 +1,37 @@
-@import 'variables';
-
-#skills {
-  background-color: $bg2;
-
-  .skill-cluster {
-    background-color: $bg3;
-    border: 1px solid $border;
-    border-radius: 4px;
-
-    h5 {
-      border-bottom: 1px solid $border;
-      padding-bottom: 0.5rem;
-    }
-
-    ul {
-      padding-left: 1rem;
-      margin: 0;
-
-      li {
-        color: $muted;
-        font-size: 0.9rem;
-        padding: 0.2rem 0;
-      }
-    }
-  }
+#skills { background: transparent; max-width: 72rem; }
+#skills > h2 { color: #e4effa; }
+.skill-cluster {
+  --skill-accent: #58e5f4;
+  background: linear-gradient(145deg, #192530, #0e151e 75%);
+  border: 1px solid #293a4b;
+  position: relative;
+  border-bottom-color: var(--skill-accent);
+  box-shadow: 0 14px 22px -12px #000, 0 9px 16px -12px var(--skill-accent);
+  border-radius: 14px;
+  padding: 1.25rem;
 }
+.skill-cluster::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: -1px;
+  height: 2px;
+  background: var(--skill-accent);
+  box-shadow: 0 2px 9px var(--skill-accent);
+  opacity: 0.75;
+  pointer-events: none;
+}
+.row > :nth-child(2) .skill-cluster { --skill-accent: #bc9cff; }
+.row > :nth-child(3) .skill-cluster { --skill-accent: #88e6ad; }
+.row > :nth-child(4) .skill-cluster { --skill-accent: #ffbc8b; }
+.skill-cluster h5 {
+  color: var(--skill-accent);
+  border: 0;
+  padding: 0;
+  margin-bottom: 0.85rem;
+  font-weight: 700;
+}
+.skill-cluster ul { list-style: none; padding: 0; margin: 0; }
+.skill-cluster li { padding: 0.65rem 0; color: #d3e0ef; font-size: 0.95rem; line-height: 1.4; }
+.skill-cluster li + li { border-top: 1px solid #293a4b; }
